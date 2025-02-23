@@ -1,6 +1,5 @@
 Berikut adalah contoh isi file **README.md** yang dapat Anda gunakan untuk proyek anti‑DDoS Anda di GitHub:
 
-```markdown
 # AxxCommunity Anti-DDoS Server
 
 Proyek **AxxCommunity Anti-DDoS Server** adalah sebuah server yang ditulis dalam bahasa Go dan dilengkapi dengan berbagai fitur perlindungan untuk menghadapi serangan DDoS dan serangan lainnya. Proyek ini menggabungkan berbagai mekanisme keamanan, seperti:
@@ -22,7 +21,8 @@ Proyek **AxxCommunity Anti-DDoS Server** adalah sebuah server yang ditulis dalam
 - **Kinerja:** Penggunaan middleware untuk mengoptimalkan performa dan mengurangi beban server.
 - **Fleksibilitas:** Endpoint API internal untuk login, registrasi, dan pengelolaan data pemain.
 - **Kemudahan Integrasi:** Dirancang agar mudah diintegrasikan dengan sistem dan aplikasi lain.
-
+  
+```markdown
 ## Struktur Proyek
 project-root/
 ├── main.go                # File utama server Go (berisi semua fitur anti-DDoS & API internal)
