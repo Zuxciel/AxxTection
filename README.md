@@ -1,5 +1,3 @@
-Berikut adalah contoh isi file **README.md** yang dapat Anda gunakan untuk proyek anti‑DDoS Anda di GitHub:
-
 # AxxCommunity Anti-DDoS Server
 
 Proyek **AxxCommunity Anti-DDoS Server** adalah sebuah server yang ditulis dalam bahasa Go dan dilengkapi dengan berbagai fitur perlindungan untuk menghadapi serangan DDoS dan serangan lainnya. Proyek ini menggabungkan berbagai mekanisme keamanan, seperti:
@@ -98,14 +96,18 @@ Untuk menguji fitur anti-DDoS, Anda dapat mengirimkan banyak request (misalnya 1
 echo "GET https://localhost:443/" | vegeta attack -duration=30s -rate=100 | vegeta report
 ```
 
+
+## Thanks To
+- Chatgpt
+- DeepSeek
+- Growtopia
+
 ## Kontribusi
 
-Silakan fork repository ini, lakukan perubahan, dan kirimkan pull request jika ada perbaikan atau fitur tambahan yang diusulkan.
+Silakan fork repository ini, lakukan perubahan, dan kirimkan pull request jika ada perbaikan atau fitur tambahan yang diusulkan. Project ini belum di test di vps/server growtopia langsung, harap mohon maaf jika project ini tidak bekerja dengan baik.
 
 ## Lisensi
 
 Proyek ini dilisensikan di bawah [MIT License](LICENSE).
 
 ---
-
-README ini dapat disesuaikan lebih lanjut sesuai dengan kebutuhan dan informasi tambahan yang ingin Anda tampilkan. Semoga membantu dan selamat menggunakan AxxCommunity Anti-DDoS Server!
