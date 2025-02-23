@@ -21,9 +21,9 @@ Proyek **AxxCommunity Anti-DDoS Server** adalah sebuah server yang ditulis dalam
 - **Kinerja:** Penggunaan middleware untuk mengoptimalkan performa dan mengurangi beban server.
 - **Fleksibilitas:** Endpoint API internal untuk login, registrasi, dan pengelolaan data pemain.
 - **Kemudahan Integrasi:** Dirancang agar mudah diintegrasikan dengan sistem dan aplikasi lain.
-  
-```markdown
+
 ## Struktur Proyek
+```struktur
 project-root/
 ├── main.go                # File utama server Go (berisi semua fitur anti-DDoS & API internal)
 ├── go.mod                 # File modul Go
